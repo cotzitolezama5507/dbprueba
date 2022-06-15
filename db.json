@@ -1,7 +1,7 @@
 {
   "usuarios": [
-    { "id": 1, "usuario": "root", "password": "1234" , "nombreC": "Josue Israel Lezama Canul", "idResidenciaO":1},
-    { "id": 2, "usuario": "root2", "password": "1234" , "nombreC": "Josue Israel Lezama Canul", "idResidenciaO":1}
+    { "id": 1, "usuario": "root", "password": "1234" , "nombreC": "Josue Israel Lezama Canul", "creditoscomple":true, "serviciosocial":true, "porcentcreditos":true, "idResidenciaO":1},
+    { "id": 2, "usuario": "root2", "password": "1234" , "nombreC": "Josue Israel Lezama Canul", "creditoscomple":true, "serviciosocial":true, "porcentcreditos":true, "idResidenciaO":1}
   ],
   "residenciaO": [
     { "id": 1, "nameProject": "Explotacion de esclavos", "integrantes":2}

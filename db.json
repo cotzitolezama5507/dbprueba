@@ -1,11 +1,20 @@
 {
   "usuarios": [
     { "id": 1, "usuario": "root", "password": "1234" , "nombreC": "Josue Israel Lezama Canul", "creditoscomple":true, "serviciosocial":true, "porcentcreditos":true, "idResidenciaO":1},
-    { "id": 2, "usuario": "root2", "password": "1234" , "nombreC": "Josue Israel Lezama Canul", "creditoscomple":true, "serviciosocial":true, "porcentcreditos":true, "idResidenciaO":1},
-    { "id": 3, "usuario": "root3", "password": "1234" , "nombreC": "Josue Lezama", "creditoscomple":false, "serviciosocial":true, "porcentcreditos":false, "idResidenciaO":0}
+    { "id": 2, "usuario": "root2", "password": "1234" , "nombreC": "Samuel de Jesus Almejo Bautista", "creditoscomple":true, "serviciosocial":true, "porcentcreditos":true, "idResidenciaO":1},
+    { "id": 3, "usuario": "root3", "password": "1234" , "nombreC": "Arturo Augusto Martin Cabrera", "creditoscomple":false, "serviciosocial":true, "porcentcreditos":false, "idResidenciaO":0},
+    { "id": 4, "usuario": "root4", "password": "1234" , "nombreC": "Ricardo Reyes Benigno", "creditoscomple":true, "serviciosocial":true, "porcentcreditos":true, "idResidenciaO":2},
+    { "id": 5, "usuario": "root5", "password": "1234" , "nombreC": "Sergio Caporali Ramirez", "creditoscomple":true, "serviciosocial":true, "porcentcreditos":true, "idResidenciaO":3}
   ],
   "residenciaO": [
-    { "id": 1, "nameProject": "Explotacion de esclavos", "integrantes":3}
+    { "id": 1, "nameProject": "Explotacion de esclavos", "integrantes":3},
+    { "id": 2, "nameProject": "Creación de páginas web dinámicas", "integrantes":1},
+    { "id": 3, "nameProject": "Explotacion de esclavos", "integrantes":1}
   ],
-  "residenciaL": [{ "id": 1, "nameProject":"Programar aplicacion kotlin con JSON" }]
+  "residenciaL": [{ "id": 1, "nameProject":"Programar aplicacion kotlin con JSON", "bacantes": 2 },
+                 { "id": 2, "nameProject":"Programar aplicacion kotlin con ROOM", "bacantes": 1},
+                 { "id": 3, "nameProject":"Programar aplicacion kotlin consumiendo una api", "bacantes": 3 },
+                 { "id": 4, "nameProject":"Programar aplicacion kotlin con volley o retrofit", "bacantes": 4 },
+                 { "id": 5, "nameProject":"Intentar pasar el semestre", "bacantes": 5 }              
+   ]
 }
